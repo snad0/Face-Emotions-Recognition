@@ -5,6 +5,8 @@ To apply my emotion detection, I also needed a face detection model. For that, I
 This is the DNN for face detection. Then I applied a prediction function to our webcam using cv2. This function first applies a face detector to the video frame, 
 detecting faces using it. After detecting faces, it applies our emotion detection model to those faces and gives us the results.
 
+
+
 You can see some of the results as i have used very less data because i dont have a good machine the accuracy was not that good but if we train the model on entire available dataset the accuracy can be very very good.
 
 ![15 08 2022_18 03 57_REC](https://user-images.githubusercontent.com/93977986/184638984-a3132892-3968-48d9-8a2d-7d77ffbecb90.png)
